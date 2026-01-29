@@ -1,0 +1,18 @@
+.App {
+  min-height: 100vh;
+}
+
+button,
+a,
+.card,
+.nav-link {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #FF9933;
+  outline-offset: 2px;
+}

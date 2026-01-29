@@ -1,0 +1,42 @@
+.dark-mode-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #E65100, #BF360C);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1030;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.15) rotate(15deg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode-toggle i {
+    transition: transform 0.3s;
+}
+
+.dark-mode-toggle:hover i {
+    transform: rotate(360deg);
+}
+
+@media (max-width: 768px) {
+    .dark-mode-toggle {
+        top: 0.75rem;
+        right: 0.75rem;
+        width: 36px;
+        height: 36px;
+        font-size: 0.9rem;
+    }
+}

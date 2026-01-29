@@ -1,0 +1,144 @@
+:root {
+    --primary-color: #E65100;
+    --primary-dark: #BF360C;
+    --primary-light: #FF6D00;
+    --accent-color: #D84315;
+}
+
+
+.nav-logo {
+    color: var(--primary-color) !important;
+}
+
+.nav-logo i {
+    color: var(--primary-color) !important;
+}
+
+.nav-link::after {
+    background: linear-gradient(90deg, var(--primary-color), var(--primary-dark)) !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+
+.section-badge {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
+    font-weight: 700 !important;
+    box-shadow: 0 2px 8px rgba(230, 81, 0, 0.3) !important;
+}
+
+
+.section-title {
+    color: var(--primary-dark) !important;
+    font-weight: 700 !important;
+}
+
+
+.card-icon {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
+    box-shadow: 0 4px 12px rgba(230, 81, 0, 0.3) !important;
+}
+
+.about-card h3 {
+    color: #212529 !important;
+    font-weight: 600 !important;
+}
+
+/* History Section */
+.history-timeline::before {
+    background: linear-gradient(to bottom, var(--primary-color), var(--primary-dark)) !important;
+    width: 3px !important;
+}
+
+.timeline-marker {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 4px rgba(230, 81, 0, 0.2) !important;
+}
+
+.timeline-content h3 {
+    color: var(--primary-color) !important;
+    font-weight: 700 !important;
+}
+
+/* Timings Section */
+.timing-card:hover {
+    border-color: var(--primary-color) !important;
+}
+
+.timing-card.highlight {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
+    box-shadow: 0 8px 20px rgba(230, 81, 0, 0.4) !important;
+}
+
+.timing-icon {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
+    box-shadow: 0 4px 12px rgba(230, 81, 0, 0.3) !important;
+}
+
+.timing-card.highlight .timing-icon {
+    color: var(--primary-color) !important;
+}
+
+.timing-hours {
+    color: var(--primary-color) !important;
+}
+
+.special-events h3 {
+    color: var(--primary-color) !important;
+    font-weight: 700 !important;
+}
+
+.event-item i {
+    color: var(--primary-color) !important;
+}
+
+/* Location Section */
+.info-card i {
+    color: var(--primary-color) !important;
+}
+
+/* Contact Section */
+.contact-card i {
+    color: var(--primary-color) !important;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 3px rgba(230, 81, 0, 0.1) !important;
+}
+
+/* Footer */
+.footer-section ul li a:hover {
+    color: var(--primary-color) !important;
+}
+
+.social-links a:hover {
+    background: var(--primary-color) !important;
+}
+
+/* Scroll to Top */
+.scroll-top {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
+}
+
+/* Hero Section Buttons */
+.btn-primary {
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+.btn-primary:hover {
+    color: var(--primary-dark) !important;
+}
+
+.btn-secondary {
+    font-weight: 700 !important;
+}
+
+.btn-secondary:hover {
+    color: var(--primary-color) !important;
+}

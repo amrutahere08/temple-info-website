@@ -1,0 +1,55 @@
+.page-nav-arrow {
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #E65100, #BF360C);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    animation: pulse-arrow 2s infinite;
+}
+
+.page-nav-arrow.down-arrow {
+    bottom: 2rem;
+}
+
+.page-nav-arrow.up-arrow {
+    bottom: 2rem;
+}
+
+.page-nav-arrow:hover {
+    transform: translateX(50%) scale(1.15);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    animation: none;
+}
+
+@keyframes pulse-arrow {
+
+    0%,
+    100% {
+        box-shadow: 0 4px 12px rgba(230, 81, 0, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 4px 20px rgba(230, 81, 0, 0.7);
+    }
+}
+
+@media (max-width: 768px) {
+    .page-nav-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+        bottom: 1.5rem;
+    }
+}

@@ -1,0 +1,113 @@
+.timings-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.timing-card {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: none;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
+
+
+
+.timing-card.highlight {
+    background: linear-gradient(135deg, #FF9933, #DAA520);
+    color: white;
+}
+
+.timing-card.highlight h3,
+.timing-card.highlight .timing-hours {
+    white-space: nowrap;
+    color: white;
+}
+
+.timing-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #FF9933, #DAA520);
+    border-radius: 50%;
+    font-size: 1.875rem;
+    color: white;
+}
+
+.timing-card.highlight .timing-icon {
+    background: white;
+    color: #FF9933;
+}
+
+.timing-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.timing-hours {
+    white-space: nowrap;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FF6B35;
+    margin-bottom: 0.5rem;
+}
+
+.timing-desc {
+    color: #6C757D;
+}
+
+.timing-card.highlight .timing-desc {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.special-events {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.special-events h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #FF6B35;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.event-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    background: #F8F9FA;
+    border-radius: 0.5rem;
+}
+
+.event-item i {
+    color: #FF9933;
+    margin-top: 0.25rem;
+}
+
+@media (max-width: 768px) {
+    .timings-grid {
+        grid-template-columns: 1fr;
+    }
+}

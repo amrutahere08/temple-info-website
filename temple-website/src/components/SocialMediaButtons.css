@@ -1,0 +1,83 @@
+.social-media-buttons {
+    position: fixed;
+    right: 1.5rem;
+    bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    z-index: 1000;
+}
+
+.social-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    flex-shrink: 0;
+}
+
+.social-button i {
+    display: block;
+    text-align: center;
+    line-height: 1;
+}
+
+.social-button:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.social-button.whatsapp {
+    background: #25D366;
+    animation: pulse 2s infinite;
+}
+
+.social-button.facebook {
+    background: #1877F2;
+}
+
+.social-button.facebook i {
+    font-size: 1.2rem;
+}
+
+.social-button.instagram {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.7);
+    }
+}
+
+@media (max-width: 768px) {
+    .social-media-buttons {
+        right: 1rem;
+        bottom: 5rem;
+        gap: 0.6rem;
+    }
+
+    .social-button {
+        width: 45px;
+        height: 45px;
+        font-size: 1.15rem;
+    }
+
+    .social-button.facebook i {
+        font-size: 1.05rem;
+    }
+}

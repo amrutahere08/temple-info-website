@@ -1,0 +1,59 @@
+# Image Placeholders for Shri Kshetra Manjuguni Temple
+
+This folder should contain the following temple photos:
+
+## Required Images (9 total):
+
+1. temple-main.jpg - Main temple facade with Vijayanagara architecture
+   - Used as hero section background
+   - Recommended size: 1920x1280px
+
+2. temple-entrance.jpg - Temple entrance with Dwaja Sthambha (flagpole)
+   - Gallery image
+   - Recommended size: 1200x800px
+
+3. deity-venkataramana.jpg - Lord Venkataramana idol
+   - Gallery image showing the deity holding arrow and bow
+   - Recommended size: 1200x800px
+
+4. deity-padmavati.jpg - Goddess Padmavati
+   - Gallery image showing the consort deity
+   - Recommended size: 1200x800px
+
+5. temple-carvings.jpg - Intricate temple carvings and pillars
+   - Gallery image showcasing Vijayanagara architecture
+   - Recommended size: 1200x800px
+
+6. chakra-teertha.jpg - Chakra Teertha (temple tank/pond)
+   - Gallery image of the sacred water body
+   - Recommended size: 1200x800px
+
+7. temple-hills.jpg - Sahyadri Hills and surrounding greenery
+   - Gallery image showing natural surroundings
+   - Recommended size: 1200x800px
+
+8. temple-festival.jpg - Rathothsava (chariot festival)
+   - Gallery image of festival celebrations
+   - Recommended size: 1200x800px
+
+9. temple-interior.jpg - Temple interior/sanctum view
+   - Gallery image of inner temple
+   - Recommended size: 1200x800px
+
+## How to Add Images:
+
+1. Download or collect photos of Shri Venkataramana Temple, Manjuguni from Google or your own collection
+2. Rename them exactly as listed above
+3. Place them in this 'images' folder
+4. Refresh the website to see the images displayed
+
+## Image Optimization Tips:
+
+- Use JPG format for photos (smaller file size)
+- Compress images to under 500KB each for faster loading
+- Maintain aspect ratio of 3:2 or 4:3 for best display
+- Ensure images are high quality but web-optimized
+
+## Note:
+
+The website will work without images, but the gallery and hero section will show broken image icons until you add the photos. The layout and all functionality will work perfectly once images are added.

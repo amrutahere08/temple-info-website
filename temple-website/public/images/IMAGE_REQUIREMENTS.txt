@@ -1,0 +1,70 @@
+# Image Requirements for Temple Website
+
+Place your temple photos in this `public/images/` directory with the following exact names:
+
+## Required Images (9 total):
+
+1. **temple-main.jpg**
+   - Main temple facade with Vijayanagara architecture
+   - Used as hero section background
+   - Recommended size: 1920x1280px
+
+2. **temple-entrance.jpg**
+   - Temple entrance with Dwaja Sthambha (flagpole)
+   - Gallery image
+   - Recommended size: 1200x800px
+
+3. **deity-venkataramana.jpg**
+   - Lord Venkataramana idol holding arrow and bow
+   - Gallery image
+   - Recommended size: 1200x800px
+
+4. **deity-padmavati.jpg**
+   - Goddess Padmavati (consort deity)
+   - Gallery image
+   - Recommended size: 1200x800px
+
+5. **temple-carvings.jpg**
+   - Intricate temple carvings and pillars
+   - Gallery image showcasing Vijayanagara architecture
+   - Recommended size: 1200x800px
+
+6. **chakra-teertha.jpg**
+   - Chakra Teertha (sacred temple tank/pond)
+   - Gallery image
+   - Recommended size: 1200x800px
+
+7. **temple-hills.jpg**
+   - Sahyadri Hills and surrounding greenery
+   - Gallery image showing natural surroundings
+   - Recommended size: 1200x800px
+
+8. **temple-festival.jpg**
+   - Rathothsava (chariot festival) celebrations
+   - Gallery image
+   - Recommended size: 1200x800px
+
+9. **temple-interior.jpg**
+   - Temple interior/sanctum view
+   - Gallery image
+   - Recommended size: 1200x800px
+
+## Image Optimization Tips:
+
+- **Format**: Use JPG for photos (smaller file size)
+- **Compression**: Optimize images to under 500KB each for faster loading
+- **Aspect Ratio**: Maintain 3:2 or 4:3 for best display
+- **Quality**: High quality but web-optimized
+
+## How to Add Images:
+
+1. Download or collect photos of Shri Venkataramana Temple, Manjuguni
+2. Rename them exactly as listed above
+3. Place them in this `public/images/` folder
+4. The React app will automatically display them
+
+## Note:
+
+The website will work without images, but the gallery and hero section will show broken image icons until you add the photos. All layout and functionality will work perfectly once images are added.
+
+The React development server will hot-reload automatically when you add the images!

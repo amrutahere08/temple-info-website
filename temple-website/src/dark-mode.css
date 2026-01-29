@@ -1,0 +1,287 @@
+.dark-mode {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --bg-card: #242424;
+    --text-primary: #ffffff;
+    --text-secondary: #b0b0b0;
+    --border-color: #404040;
+}
+
+.dark-mode body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.dark-mode .header {
+    background: rgba(26, 26, 26, 0.95);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.dark-mode .header.scrolled {
+    background: rgba(26, 26, 26, 0.98);
+}
+
+.dark-mode .nav-logo {
+    color: #FF8A50;
+}
+
+.dark-mode .nav-logo i {
+    color: #FF8A50;
+}
+
+.dark-mode .nav-link {
+    color: var(--text-secondary);
+    background: transparent;
+}
+
+.dark-mode .nav-link:hover,
+.dark-mode .nav-link.active {
+    color: #FF8A50;
+    background: transparent;
+}
+
+.dark-mode .nav-toggle {
+    color: #FF8A50;
+}
+
+.dark-mode section {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.dark-mode .section-title {
+    color: #FF8A50;
+}
+
+.dark-mode .section-description {
+    color: var(--text-secondary);
+}
+
+.dark-mode .about-card,
+.dark-mode .timing-card,
+.dark-mode .info-card,
+.dark-mode .contact-card {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.dark-mode .about-card:hover,
+.dark-mode .timing-card:hover {
+    border-color: #FF8A50;
+    box-shadow: 0 8px 20px rgba(255, 138, 80, 0.2);
+}
+
+.dark-mode .about-card h3,
+.dark-mode .timing-card h3 {
+    color: var(--text-primary);
+}
+
+.dark-mode .about-card p,
+.dark-mode .timing-card p {
+    color: var(--text-secondary);
+}
+
+.dark-mode .timeline-item {
+    border-color: var(--border-color);
+}
+
+.dark-mode .timeline-content {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+}
+
+.dark-mode .timeline-content h3 {
+    color: #FF8A50;
+}
+
+.dark-mode .timeline-content p {
+    color: var(--text-secondary);
+}
+
+.dark-mode .gallery-item {
+    border-color: var(--border-color);
+}
+
+.dark-mode .lightbox {
+    background: rgba(0, 0, 0, 0.95);
+}
+
+.dark-mode .lightbox-caption {
+    background: rgba(26, 26, 26, 0.9);
+    color: var(--text-primary);
+}
+
+.dark-mode .contact-form {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+}
+
+.dark-mode .form-group label {
+    color: var(--text-primary);
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group textarea {
+    background: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.dark-mode .form-group input::placeholder,
+.dark-mode .form-group textarea::placeholder {
+    color: #888;
+}
+
+.dark-mode .form-group input:focus,
+.dark-mode .form-group textarea:focus {
+    border-color: #FF8A50;
+    box-shadow: 0 0 0 3px rgba(255, 138, 80, 0.1);
+    background: var(--bg-secondary);
+}
+
+.dark-mode .error-message {
+    color: #ff6b6b;
+}
+
+.dark-mode .success-message {
+    background: rgba(76, 175, 80, 0.2);
+    border-color: #4CAF50;
+    color: #81C784;
+}
+
+.dark-mode .footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+}
+
+.dark-mode .footer-section h3 {
+    color: var(--text-primary);
+}
+
+.dark-mode .footer-section p,
+.dark-mode .footer-section ul li a {
+    color: var(--text-secondary);
+}
+
+.dark-mode .footer-section ul li a:hover {
+    color: #FF8A50;
+}
+
+.dark-mode .footer-bottom {
+    border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+
+.dark-mode .special-events {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+}
+
+.dark-mode .special-events h3 {
+    color: #FF8A50;
+}
+
+.dark-mode .event-item {
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.dark-mode .event-item strong {
+    color: var(--text-primary);
+}
+
+.dark-mode .map-container iframe {
+    filter: invert(90%) hue-rotate(180deg);
+    border-color: var(--border-color);
+}
+
+.dark-mode .nav-menu {
+    background: var(--bg-secondary);
+}
+
+.dark-mode .scroll-top {
+    background: linear-gradient(135deg, #FF8A50, #E65100);
+}
+
+.dark-mode .timing-card.highlight {
+    background: linear-gradient(135deg, #E65100, #BF360C);
+    color: white;
+}
+
+.dark-mode .timing-card.highlight .timing-icon {
+    background: white;
+    color: #E65100;
+}
+
+.dark-mode .timing-card.highlight h3,
+.dark-mode .timing-card.highlight p {
+    color: white;
+}
+
+/* Dark Mode - FAQ & Guidelines */
+.dark-mode .column-title {
+    color: var(--text-primary);
+}
+
+.dark-mode .faq-item {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+}
+
+.dark-mode .faq-item:hover {
+    border-color: #FF8A50;
+    box-shadow: 0 4px 12px rgba(255, 138, 80, 0.2);
+}
+
+.dark-mode .faq-question h3 {
+    color: var(--text-primary);
+}
+
+.dark-mode .faq-item.active .faq-question h3 {
+    color: #FF8A50;
+}
+
+.dark-mode .faq-item.active {
+    border-color: #FF8A50;
+    box-shadow: 0 4px 12px rgba(255, 138, 80, 0.25);
+}
+
+.dark-mode .faq-answer {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.dark-mode .faq-answer p {
+    color: var(--text-secondary);
+}
+
+.dark-mode .guidelines-card {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+}
+
+.dark-mode .guidelines-list li {
+    color: var(--text-primary);
+}
+
+.dark-mode .guidelines-list li:hover {
+    background: rgba(255, 138, 80, 0.08);
+}
+
+.dark-mode .guidelines-list li span {
+    color: var(--text-secondary);
+}
+
+.dark-mode .guidelines-note {
+    background: linear-gradient(135deg, rgba(255, 138, 80, 0.15) 0%, rgba(230, 81, 0, 0.1) 100%);
+    border-left-color: #FF8A50;
+}
+
+.dark-mode .guidelines-note p {
+    color: #FFB74D;
+}
+
+.dark-mode .guidelines-note strong {
+    color: #FF8A50;
+}

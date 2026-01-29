@@ -1,0 +1,61 @@
+.location {
+    background: #F8F9FA;
+}
+
+.location-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: none;
+    border: 1px solid #e0e0e0;
+}
+
+
+
+.info-card h4 {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+    color: #212529;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.info-card h4 i {
+    font-size: 1.5rem;
+    color: #FF9933;
+    flex-shrink: 0;
+}
+
+.info-card p {
+    color: #6C757D;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.location-map {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    min-height: 400px;
+}
+
+@media (max-width: 1024px) {
+    .location-content {
+        grid-template-columns: 1fr;
+    }
+}
