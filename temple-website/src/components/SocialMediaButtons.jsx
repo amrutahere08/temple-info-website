@@ -11,13 +11,11 @@ const SocialMediaButtons = () => {
         {
             name: 'Facebook',
             icon: 'fab fa-facebook-f',
-            url: 'https://facebook.com/manjugunitemple',
             color: '#1877F2'
         },
         {
             name: 'Instagram',
             icon: 'fab fa-instagram',
-            url: 'https://instagram.com/manjugunitemple',
             color: '#E4405F'
         }
     ];
