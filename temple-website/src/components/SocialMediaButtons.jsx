@@ -11,11 +11,13 @@ const SocialMediaButtons = () => {
         {
             name: 'Facebook',
             icon: 'fab fa-facebook-f',
+            url: 'https://facebook.com/manjugunitemple',
             color: '#1877F2'
         },
         {
             name: 'Instagram',
             icon: 'fab fa-instagram',
+            url: 'https://instagram.com/manjugunitemple',
             color: '#E4405F'
         }
     ];
@@ -31,24 +33,20 @@ const SocialMediaButtons = () => {
             >
                 <i className="fab fa-whatsapp"></i>
             </a>
-            <a
-                href="https://www.facebook.com/share/1DDvV1AWN5/?mibextid=wwXIfr"
-                target="_blank"
-                rel="noopener noreferrer"
+            <div
                 className="social-button facebook"
                 aria-label="Facebook"
+                role="button"
             >
                 <i className="fab fa-facebook-f"></i>
-            </a>
-            <a
-                href="https://www.instagram.com/manjugunivenkata?igsh=MWZyODVheno4anh0cQ=="
-                target="_blank"
-                rel="noopener noreferrer"
+            </div>
+            <div
                 className="social-button instagram"
                 aria-label="Instagram"
+                role="button"
             >
                 <i className="fab fa-instagram"></i>
-            </a>
+            </div>
         </div>
     );
 };
